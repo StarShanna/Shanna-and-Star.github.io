@@ -1,0 +1,62 @@
+#intro .jumbotron
+{
+  height:89.5vh ;
+  top: 0%;
+  margin: 0%;
+  padding: 0%;
+  background-image: url("IMG_2972.JPG");background-repeat:no-repeat ;background-attachment: fixed;
+  background-size: cover;background-position:center center ;
+}
+
+h1{
+  font-family: 'Noto Sans', sans-serif;
+}
+#intro h1{
+  font-size: 60px;
+  font-weight: 400;
+  position: relative;
+}
+p,a{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#intro a,p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn{
+  background:crimson;
+  color: white;
+  padding: 9px 20px;
+  border-radius: 20px;
+}
+#intro .container{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header nav img{
+  width: 70px;
+}
+header li{
+margin: 0 15px;
+}
+header li a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+canvas{
+  z-index: 2;
+}
+
+.text{
+  text-align:left;
+  font-size: 28px;
+  width: 100%;
+  top:300px;
+  position: absolute;
+  margin:0 auto;
+  display: block;
+}
